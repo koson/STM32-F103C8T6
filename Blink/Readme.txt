@@ -1,0 +1,1 @@
+This program blink a led (PC13) every 300ms.

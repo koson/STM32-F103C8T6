@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"read_gpio_to_control_led\startup_stm32f103xb.o"
+"read_gpio_to_control_led\main.o"
+"read_gpio_to_control_led\stm32f1xx_it.o"
+"read_gpio_to_control_led\stm32f1xx_hal_msp.o"
+"read_gpio_to_control_led\stm32f1xx_hal_gpio_ex.o"
+"read_gpio_to_control_led\stm32f1xx_hal_tim.o"
+"read_gpio_to_control_led\stm32f1xx_hal_tim_ex.o"
+"read_gpio_to_control_led\stm32f1xx_hal.o"
+"read_gpio_to_control_led\stm32f1xx_hal_rcc.o"
+"read_gpio_to_control_led\stm32f1xx_hal_rcc_ex.o"
+"read_gpio_to_control_led\stm32f1xx_hal_gpio.o"
+"read_gpio_to_control_led\stm32f1xx_hal_dma.o"
+"read_gpio_to_control_led\stm32f1xx_hal_cortex.o"
+"read_gpio_to_control_led\stm32f1xx_hal_pwr.o"
+"read_gpio_to_control_led\stm32f1xx_hal_flash.o"
+"read_gpio_to_control_led\stm32f1xx_hal_flash_ex.o"
+"read_gpio_to_control_led\stm32f1xx_hal_exti.o"
+"read_gpio_to_control_led\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Read_GPIO_To_Control_LED\Read_GPIO_To_Control_LED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Read_GPIO_To_Control_LED.map" -o Read_GPIO_To_Control_LED\Read_GPIO_To_Control_LED.axf
