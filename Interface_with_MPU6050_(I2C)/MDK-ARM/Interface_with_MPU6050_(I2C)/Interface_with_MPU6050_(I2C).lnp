@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"interface_with_mpu6050_(i2c)\startup_stm32f103xb.o"
+"interface_with_mpu6050_(i2c)\main.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_it.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal_msp.o"
+"interface_with_mpu6050_(i2c)\mpu6050_i2c.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal_gpio_ex.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal_i2c.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal_tim.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal_tim_ex.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal_rcc.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal_rcc_ex.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal_gpio.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal_dma.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal_cortex.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal_pwr.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal_flash.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal_flash_ex.o"
+"interface_with_mpu6050_(i2c)\stm32f1xx_hal_exti.o"
+"interface_with_mpu6050_(i2c)\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Interface_with_MPU6050_(I2C)\Interface_with_MPU6050_(I2C).sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Interface_with_MPU6050_(I2C).map" -o Interface_with_MPU6050_(I2C)\Interface_with_MPU6050_(I2C).axf
