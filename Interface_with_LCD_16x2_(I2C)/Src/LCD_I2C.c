@@ -19,7 +19,7 @@ void LCD_SendCmd(uint8_t command)
 	data[1] = u_data | 0x08 ;	// led, en, rw, rs = 1000 = 0x08
 	data[2] = l_data | 0x0C ;
 	data[3] = l_data | 0x08 ;
-	HAL_I2C_Master_Transmit (&hi2c2, SLAVE_ADDRESS_LCD<<1,(uint8_t *) data, 4, 100);
+	HAL_I2C_Master_Transmit (&i2c_port, SLAVE_ADDRESS_LCD<<1,(uint8_t *) data, 4, 100);
 }
 
 void LCD_SendData(char command)
@@ -32,7 +32,7 @@ void LCD_SendData(char command)
 	data[1] = u_data | 0x09 ;
 	data[2] = l_data | 0x0D ;
 	data[3] = l_data | 0x09 ;
-	HAL_I2C_Master_Transmit (&hi2c2, SLAVE_ADDRESS_LCD<<1,(uint8_t *) data, 4, 100);
+	HAL_I2C_Master_Transmit (&i2c_port, SLAVE_ADDRESS_LCD<<1,(uint8_t *) data, 4, 100);
 }
 
 void LCD_Init(void)

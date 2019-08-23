@@ -2,6 +2,7 @@
 
 // i2c port and lcd address
 extern I2C_HandleTypeDef hi2c2;
+#define i2c_port hi2c2
 #define SLAVE_ADDRESS_LCD 0x27
 
 // commands
