@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"read_pot_and_lm35_value_with_adc+dma\startup_stm32f103xb.o"
+"read_pot_and_lm35_value_with_adc+dma\main.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_it.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_msp.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_gpio_ex.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_adc.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_adc_ex.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_tim.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_tim_ex.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_rcc.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_rcc_ex.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_gpio.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_dma.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_cortex.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_pwr.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_flash.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_flash_ex.o"
+"read_pot_and_lm35_value_with_adc+dma\stm32f1xx_hal_exti.o"
+"read_pot_and_lm35_value_with_adc+dma\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Read_Pot_and_LM35_value_with_ADC+DMA\Read_Pot_and_LM35_value_with_ADC+DMA.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Read_Pot_and_LM35_value_with_ADC+DMA.map" -o Read_Pot_and_LM35_value_with_ADC+DMA\Read_Pot_and_LM35_value_with_ADC+DMA.axf
