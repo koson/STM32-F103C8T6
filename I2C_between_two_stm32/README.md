@@ -1,6 +1,8 @@
 I2C between two uC.
 
-Note: Use 2K to 10K resistors to pull up SDA and SCL line (5V).
+Note:
+Speed : 400Khz.
+Use 2K to 5K resistors to pull up SDA and SCL line (5V).
 
 How it work:
 
