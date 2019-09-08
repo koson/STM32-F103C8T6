@@ -1,4 +1,4 @@
-I2C between two uC.
+I2C between two uC (Polling method).
 
 Note:
 - Speed : 400Khz.
