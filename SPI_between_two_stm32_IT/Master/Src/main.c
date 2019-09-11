@@ -61,7 +61,7 @@ int main(void)
 	HAL_Delay(1);
 	
 	Transmit(1);
-	HAL_Delay(10);
+	while (HAL_SPI_GetState(&hspi1) != HAL_SPI_STATE_READY){}
 	Transmit(2);
 	
   while (1)
